@@ -14,12 +14,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "bootstrap": "^5.1.0",
+    "font-awesome": "^4.7.0",
     "gatsby": "^3.12.1",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "prettier": "2.3.2"
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "prettier": "2.3.2",
+    "tailwindcss": "^2.2.11"
   },
   "repository": {
     "type": "git",

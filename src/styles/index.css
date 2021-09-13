@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  width: 100vw;
+}
+.navBrand {
+  float: left;
+  display: block;
+}
+
+.topnav .menu {
+  font-family: montserrat;
+
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+
+  text-decoration-line: none;
+  font-size: 17px;
+}
+
+.topnav .menu:hover {
+  color: rgb(30, 236, 236);
+  text-decoration: none;
+}
+
+.topnav .active {
+  color: rgb(49, 240, 230);
+}
+
+button {
+  display: none;
+  background-color: black;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav {
+    width: 100vw;
+    position: fixed;
+  }
+  .topnav .menu {
+    display: none;
+    padding: 14px 16px;
+  }
+  button {
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: block;
+  }
+  button i {
+    color: aliceblue;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive .menu {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

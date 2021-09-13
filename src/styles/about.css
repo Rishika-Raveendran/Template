@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+.about {
+  background-color: rgb(8, 8, 8);
+  color: rgb(109, 109, 109);
+}
+.who-are-we,
+.about-content {
+  padding-top: 10vh;
+  overflow-x: hidden;
+}
+.who-are-we .text {
+  display: flex;
+  align-items: center;
+  border: 3px solid rgb(8, 8, 8);
+  border-top: 2px solid rgb(30, 160, 236);
+  border-left: 2px solid rgb(30, 160, 236);
+  padding: 5vh 4vw;
+  font-family: "Montserrat", "sans-serif";
+}
+.who-are-we h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: rgb(30, 160, 236);
+}
+.who-are-we p {
+  margin-top: 4vh;
+  font-weight: 500;
+  font-size: 1.2rem;
+  word-spacing: 0.4rem;
+  line-height: 1.6rem;
+}
+.quote .text {
+  font-family: "Allison", cursive;
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  color: rgb(214, 214, 214);
+}
+.quote h1 {
+  font-size: 5rem;
+}
+.continue .text {
+  display: flex;
+  align-items: center;
+  border: 3px solid rgb(8, 8, 8);
+  border-bottom: 2px solid rgb(30, 160, 236);
+  border-right: 2px solid rgb(30, 160, 236);
+  padding: 5vh 4vw;
+  margin-bottom: 10vh;
+  font-weight: 500;
+  font-size: 1.2rem;
+  word-spacing: 0.4rem;
+  line-height: 1.6rem;
+  font-family: "Montserrat", "sans-serif";
+}
+
+.pcimg {
+  height: 35rem;
+  width: 35rem;
+  border-top-left-radius: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .who-are-we h1 {
+    font-size: 2rem;
+  }
+  .who-are-we p {
+    font-size: 1rem;
+  }
+  .quote h1 {
+    font-size: 3rem;
+  }
+}

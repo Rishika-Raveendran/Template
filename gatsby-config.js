@@ -7,4 +7,8 @@
 module.exports = {
   /* Your site config here */
   plugins: [],
+  siteMetadata: {
+    title: `FOSS CELL GECT`,
+   
+  },
 }
