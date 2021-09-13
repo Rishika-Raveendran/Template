@@ -30,12 +30,12 @@ export default function Home() {
           <i className="fa fa-bars"></i>
         </button>
        <div className="topnav" id="myTopnav">
-        <Link to="#herosection" className="navBrand">
+        <Link to="/" className="navBrand">
           <img src="assets/images/logo.png" width="65rem"  alt="Foss GECT logo"></img>
         </Link>
 
         <Link
-          to="#herosection"
+          to="/"
           className={activeMenu === 1 ? "menu active" : "menu"}
           onClick={() => {
             toggleNav(1)
