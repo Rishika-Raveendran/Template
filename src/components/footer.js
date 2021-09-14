@@ -4,11 +4,11 @@ import "../styles/footer.css"
 function Footer() {
   return (
     <div>
-      <footer id="footer" class="footer-1">
-        <div class="footer-copyright">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
+      <footer id="footer" className="footer-1">
+        <div className="footer-copyright">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 text-center">
                 <p>Copyright FOSS Cell GECT © 2021. All rights reserved.</p>
               </div>
             </div>

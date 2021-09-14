@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .hero {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background-color: rgb(8, 8, 8);
   background-repeat: no-repeat;
@@ -9,6 +9,7 @@
   background-size: contain;
   margin: 0;
   padding: 0;
+  padding-top: 65px;
 }
 
 .foss-heading {
@@ -24,9 +25,15 @@
   font-size: 6rem;
   font-family: "Montserrat", sans-serif;
   color: transparent;
-  background: url(https://media.giphy.com/media/jNYUeDwoUoloEswJm8/giphy.gif);
+  background: url("https://media.giphy.com/media/jNYUeDwoUoloEswJm8/giphy.gif");
   background-clip: text;
   font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  .foss-heading h1 {
+    font-size: 5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -35,7 +42,7 @@
     width: 10rem;
   }
   .foss-heading h1 {
-    font-size: 2.75rem;
+    font-size: 3rem;
   }
 }
 
